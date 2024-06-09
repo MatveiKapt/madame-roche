@@ -1,0 +1,71 @@
+.roche-portrait {
+  position: relative;
+
+  width: 70%;
+  max-width: 680px;
+}
+
+.roche-portrait__roche {
+  pointer-events: none;
+}
+
+.roche-portrait__mask {
+  position: absolute;
+  top: 36%;
+  left: 52%;
+  transform: translateX(-48%);
+
+  width: 50%;
+}
+
+.roche-portrait__mark {
+  position: absolute;
+  bottom: -14%;
+  left: 14%;
+
+  width: 20%;
+  max-width: 68px;
+}
+
+.roche-portrait figcaption {
+  position: absolute;
+  right: -12%;
+  bottom: -4%;
+
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #B1525E;
+
+  transform: rotate(-14deg);
+}
+
+@media (min-width: 768px) {
+  .roche-portrait {
+    padding-left: 40px;
+  }
+
+  .roche-portrait__mask {
+    position: absolute;
+    top: 36%;
+    left: 53%;
+    transform: translateX(-47%);
+
+    width: 50%;
+    max-width: 278px;
+  }
+
+  .roche-portrait__mark {
+    position: absolute;
+    bottom: -8%;
+    left: 20%;
+  }
+
+  .roche-portrait figcaption {
+    right: -5%;
+    bottom: 1%;
+
+    font-size: 21px;
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,12 @@
+.logo {
+  width: 50%;
+  max-width: 285px;
+
+  transition: transform 0.8s;
+}
+
+@media (hover: hover) {
+  .logo:hover {
+    transform: scale(1.1);
+  }
+}

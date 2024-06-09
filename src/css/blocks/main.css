@@ -1,0 +1,9 @@
+.main__preview {
+  margin-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+  .main__preview {
+    margin-bottom: 160px;
+  }
+}

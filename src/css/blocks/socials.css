@@ -1,0 +1,20 @@
+.socials {
+  display: flex;
+  gap: 20px;
+}
+
+.socials__link {
+  font-size: 14px;
+  line-height: 20px;
+  color: #C22727;
+}
+
+@media (hover: hover) {
+  .socials__link:hover {
+    text-decoration: underline;
+  }
+}
+
+.socials__link:active {
+  opacity: 0.8;
+}

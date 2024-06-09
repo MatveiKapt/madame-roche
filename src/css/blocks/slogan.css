@@ -1,0 +1,38 @@
+.slogan {
+  position: relative;
+
+  width: 90%;
+  max-width: 869px;
+
+  font-family: var(--second-font);
+  font-size: 40px;
+  line-height: 60px;
+  color: #B51B1B;
+  text-align: center;
+}
+
+.slogan img {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  z-index: -1;
+
+  width: 60%;
+  max-width: 700px;
+
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .slogan {
+    font-size: 100px;
+    line-height: 130px;
+    letter-spacing: 2px;
+  }
+
+  .slogan img {
+    width: 600px;
+    top: 15%;
+    right: -16%;
+  }
+}

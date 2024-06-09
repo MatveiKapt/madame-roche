@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "PT Mono";
+  src: url(../fonts/PTMono-Regular.woff2),
+       url(../fonts/PTMono-Regular.woff);
+       font-weight: 400;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Mono";
+  src: url(../fonts/PTMono-Bold.woff2),
+       url(../fonts/PTMono-Bold.woff);
+       font-weight: 700;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: "Gento Dream";
+  src: url(../fonts/GentoDream.woff2),
+       url(../fonts/GentoDream.woff),
+       url(../fonts/GentoDream.ttf);
+       font-weight: 400;
+       font-style: normal;
+}

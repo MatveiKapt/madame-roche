@@ -1,0 +1,16 @@
+@import url('./normalize.css');
+@import url('./fonts.css');
+@import url('./variables.css');
+@import url('./global.css');
+
+@import url('./blocks/body.css');
+@import url(./blocks/header.css);
+@import url('./blocks/code-info.css');
+@import url('./blocks/main.css');
+@import url('./blocks/preview.css');
+@import url('./blocks/logo.css');
+@import url('./blocks/roche-portrait.css');
+@import url('./blocks/slogan.css');
+@import url('./blocks/about.css');
+@import url('./blocks/footer.css');
+@import url('./blocks/socials.css');

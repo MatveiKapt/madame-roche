@@ -1,0 +1,38 @@
+.code-info {
+  width: 100%;
+  padding: 0 2%;
+
+  font-family: inherit;
+  font-size: 10px;
+  line-height: 18px;
+  color: #C22727;
+  text-align: center;
+  font-style: normal;
+}
+
+.code-info a {
+  color: #290B0B;
+}
+
+.code-info a:active {
+  opacity: 0.6;
+}
+
+@media (min-width: 768px) {
+  .code-info {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+  }
+
+  .code-info a {
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+
+  @media(hover: hover) {
+    .code-info a:hover {
+      transform: translateY(-2px);
+    }
+  }
+}
